@@ -10,4 +10,9 @@
     <Compile Remove="Class1.cs" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Entities\BaseEntity\" />
+  </ItemGroup>
+
 </Project>

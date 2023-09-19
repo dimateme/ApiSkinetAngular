@@ -17,5 +17,7 @@ namespace Infrastructure.Data
         /// Creates a table in the database called Products
         /// </summary>
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductType> ProductTypes { get; set; }
+        public DbSet<ProductBrand> ProductBrands{ get; set; }
     }
 }
